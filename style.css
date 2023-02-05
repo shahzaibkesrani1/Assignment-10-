@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #61616d;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+img{
+    cursor: pointer;
+}
+.navright img,
+.fa{
+    width: 25px ;
+    margin-right: 25px;
+}
+.icon{
+    width: 35px !important;
+    margin-right: 0px;
+    border-radius: 50%;
+}
+.menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.main-logo{
+    width:80px;
+}
+.navmiddle .mic-icon{
+width: 16px;
+}
+.navmiddle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.navmiddle .search-box input{
+    width: 400px ;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.navmiddle .search-box img{
+    width: 15px;
+}
+/* navbar ke neche ke css hai yeh */
+.sidebar{
+background: #fff;
+width: 15%;
+height: 100vh;
+position: fixed;
+top: 0;
+ padding-left: 2%;
+ padding-top: 80px;
+}
+.links a img{
+width: 20px;
+margin-right:20px ;
+}
+.links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.links a:first-child{
+    color: #ed3838;
+}
+
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.subscribe-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a5a;
+}
+.subscribe-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+ p{
+    font-weight: 500 !important;
+}
+.subscribe-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#special{
+    font-weight: 400 !important;
+    color:#0f0f0f;
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;;
+}
+.newsidebar{
+    width: 5%;
+}
+.newsidebar a p{
+display: none;
+}
+.newsidebar h3{
+    display: none;
+}
+.newsidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.menu-icon:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.5);
+}
+/* ab idhar se bech ka vidoes ke css hai */
+.container{
+padding-left: 12%;
+padding-right: 2%;
+padding-top: 10px;
+padding-bottom: 20px;
+display: flex;
+justify-content: center;
+}
+.container a{
+margin: 16px;
+border: 1px solid rgba(255, 255, 255, 0.411);
+border-radius: 10%;
+color: rgb(0, 0, 0);
+font-size: 17px;
+text-align: center;
+padding: 6px;
+outline: none;
+transition: .8s;
+}
+.ipe{
+    background-color: black;
+    color: #fff !important;
+    border-radius: 11px !important;
+    padding: 9px !important;
+}
+#cov{
+    background-color: #eaeaee;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 12%;
+    padding: 10px;
+}
+#cov:hover{
+    transition: .6s;
+    background-color: #c3c3ca;
+
+}
+.ipe:hover{
+    transition: .6s;
+    background-color: #c3c3ca;
+    color: black !important;
+}
+.vidoes img{
+    margin: 5px;
+    margin-left: 9px;
+    border-radius: 12px;
+}
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-column-gap:10px;
+    grid-row-gap:30px;
+    margin-top: 10px;
+}
+.vidoes .thumb{
+width: 100%;
+border-radius: 5px;
+}
+.vidoes .flex-div{
+    align-items: flex-start;
+    margin-top: 8px;
+
+}
+.vidoes .flex-div img{
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
